@@ -1,0 +1,33 @@
+{
+  "name": "react-components",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/shalanah/react-components.git",
+  "author": "shalanah <shalanahfaith@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-docs": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0",
+    "babel-preset-react-app": "^9.1.2",
+    "cross-env": "^7.0.2",
+    "react": "^16.13.1",
+    "react-is": "^16.13.1"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "cross-env BABEL_ENV=production babel src -d dist"
+  }
+}
