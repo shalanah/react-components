@@ -30,8 +30,7 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": "cross-env BABEL_ENV=production babel src -d dist",
-    "prepublish": "npm run build"
+    "build": "cross-env BABEL_ENV=production babel src -d dist"
   },
   "description": "- Test lib for creating a private npm package",
   "bugs": {
