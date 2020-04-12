@@ -1,2 +1,2 @@
-# React Components
-- Test lib for creating a private npm package
+# TEST React Components
+- Test lib for creating a npm component package
